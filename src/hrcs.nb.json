@@ -1,0 +1,338 @@
+[
+  {
+    "identifier": "1",
+    "label": {
+      "nb": "Underbyggende Forskning"
+    }
+  },
+  {
+    "identifier": "1.1",
+    "label": {
+      "nb": "Normal biologisk utvikling og funksjon"
+    }
+  },
+  {
+    "identifier": "1.2",
+    "label": {
+      "nb": "Psykologiske og sosioøkonomiske prosesser"
+    }
+  },
+  {
+    "identifier": "1.3",
+    "label": {
+      "nb": "Kjemiske og fysiske vitenskaper"
+    }
+  },
+  {
+    "identifier": "1.4",
+    "label": {
+      "nb": "Metodologi og målinger"
+    }
+  },
+  {
+    "identifier": "1.5",
+    "label": {
+      "nb": "Ressurser og infrastruktur (underbyggende)"
+    }
+  },
+  {
+    "identifier": "2",
+    "label": {
+      "nb": "Årsaksforhold"
+    }
+  },
+  {
+    "identifier": "2.1",
+    "label": {
+      "nb": "Biologiske og indre faktorer"
+    }
+  },
+  {
+    "identifier": "2.2",
+    "label": {
+      "nb": "Faktorer knyttet til fysisk miljø"
+    }
+  },
+  {
+    "identifier": "2.3",
+    "label": {
+      "nb": "Psykologiske, sosiale og økonomiske faktorer"
+    }
+  },
+  {
+    "identifier": "2.4",
+    "label": {
+      "nb": "Overvåking og utbredelse"
+    }
+  },
+  {
+    "identifier": "2.5",
+    "label": {
+      "nb": "Forskningsdesign og metodologi (årsaksforhold)"
+    }
+  },
+  {
+    "identifier": "2.6",
+    "label": {
+      "nb": "Ressurser og infrastruktur (årsaksforhold)"
+    }
+  },
+  {
+    "identifier": "3",
+    "label": {
+      "nb": "Sykdomsforebyggende og helsefremmende tiltak, og fremme av velvære"
+    }
+  },
+  {
+    "identifier": "3.1",
+    "label": {
+      "nb": "Primærforebyggende tiltak for å endre atferd eller fremme helse"
+    }
+  },
+  {
+    "identifier": "3.2",
+    "label": {
+      "nb": "Intervensjoner for å endre fysisk og biologisk miljørisiko"
+    }
+  },
+  {
+    "identifier": "3.3",
+    "label": {
+      "nb": "Ernæring og kjemoprevensjon"
+    }
+  },
+  {
+    "identifier": "3.4",
+    "label": {
+      "nb": "Vaksiner"
+    }
+  },
+  {
+    "identifier": "3.5",
+    "label": {
+      "nb": "Ressurser og infrastruktur (sykdomsforebyggende og helsefremmende tiltak)"
+    }
+  },
+  {
+    "identifier": "4",
+    "label": {
+      "nb": "Påvising, screening og diagnose"
+    }
+  },
+  {
+    "identifier": "4.1",
+    "label": {
+      "nb": "Oppdaging og preklinisk testing av markører og teknologier"
+    }
+  },
+  {
+    "identifier": "4.2",
+    "label": {
+      "nb": "Evaluering av markører og teknologier"
+    }
+  },
+  {
+    "identifier": "4.3",
+    "label": {
+      "nb": "Innflytelse og påvirkningskraft"
+    }
+  },
+  {
+    "identifier": "4.4",
+    "label": {
+      "nb": "Befolkningsundersøkelser"
+    }
+  },
+  {
+    "identifier": "4.5",
+    "label": {
+      "nb": "Ressurser og infrastruktur (deteksjon, screening og diagnose)"
+    }
+  },
+  {
+    "identifier": "5",
+    "label": {
+      "nb": "Utvikling av behandlinger og terapeutiske intervensjoner"
+    }
+  },
+  {
+    "identifier": "5.1",
+    "label": {
+      "nb": "Legemidler"
+    }
+  },
+  {
+    "identifier": "5.2",
+    "label": {
+      "nb": "Celle- og genterapi"
+    }
+  },
+  {
+    "identifier": "5.3",
+    "label": {
+      "nb": "Medisinsk utstyr"
+    }
+  },
+  {
+    "identifier": "5.4",
+    "label": {
+      "nb": "Kirurgi"
+    }
+  },
+  {
+    "identifier": "5.5",
+    "label": {
+      "nb": "Strålebehandling"
+    }
+  },
+  {
+    "identifier": "5.6",
+    "label": {
+      "nb": "Psykologiske og atferdsmessige"
+    }
+  },
+  {
+    "identifier": "5.7",
+    "label": {
+      "nb": "Fysiske"
+    }
+  },
+  {
+    "identifier": "5.8",
+    "label": {
+      "nb": "Alternativ behandling"
+    }
+  },
+  {
+    "identifier": "5.9",
+    "label": {
+      "nb": "Ressurser og infrastruktur (utvikling av behandlinger og terapeutiske intervensjoner)"
+    }
+  },
+  {
+    "identifier": "6",
+    "label": {
+      "nb": "Evaluering av behandlinger og terapeutiske intervensjoner"
+    }
+  },
+  {
+    "identifier": "6.1",
+    "label": {
+      "nb": "Legemidler"
+    }
+  },
+  {
+    "identifier": "6.2",
+    "label": {
+      "nb": "Celle- og genterapi"
+    }
+  },
+  {
+    "identifier": "6.3",
+    "label": {
+      "nb": "Medisinsk utstyr"
+    }
+  },
+  {
+    "identifier": "6.4",
+    "label": {
+      "nb": "Kirurgi"
+    }
+  },
+  {
+    "identifier": "6.5",
+    "label": {
+      "nb": "Strålebehandling"
+    }
+  },
+  {
+    "identifier": "6.6",
+    "label": {
+      "nb": "Psykologiske og atferdsmessige"
+    }
+  },
+  {
+    "identifier": "6.7",
+    "label": {
+      "nb": "Fysiske"
+    }
+  },
+  {
+    "identifier": "6.8",
+    "label": {
+      "nb": "Alternativ behandling"
+    }
+  },
+  {
+    "identifier": "6.9",
+    "label": {
+      "nb": "Ressurser og infrastruktur (evaluering av behandlinger og terapeutiske intervensjoner)"
+    }
+  },
+  {
+    "identifier": "7",
+    "label": {
+      "nb": "Håndtering av sykdommer og tilstander"
+    }
+  },
+  {
+    "identifier": "7.1",
+    "label": {
+      "nb": "Individuelle omsorgsbehov"
+    }
+  },
+  {
+    "identifier": "7.2",
+    "label": {
+      "nb": "Omsorg ved livets slutt"
+    }
+  },
+  {
+    "identifier": "7.3",
+    "label": {
+      "nb": "Håndtering og beslutningstaking"
+    }
+  },
+  {
+    "identifier": "7.4",
+    "label": {
+      "nb": "Ressurser og infrastruktur (håndtering av sykdommer og tilstander)"
+    }
+  },
+  {
+    "identifier": "8",
+    "label": {
+      "nb": "Helse- og sosialtjenesteforskning"
+    }
+  },
+  {
+    "identifier": "8.1",
+    "label": {
+      "nb": "Organisering og levering av tjenester"
+    }
+  },
+  {
+    "identifier": "8.2",
+    "label": {
+      "nb": "Helse- og velferdsøkonomi"
+    }
+  },
+  {
+    "identifier": "8.3",
+    "label": {
+      "nb": "Politikk, etikk og god vitenskapelig praksis"
+    }
+  },
+  {
+    "identifier": "8.4",
+    "label": {
+      "nb": "Forskningsdesign og metodologi"
+    }
+  },
+  {
+    "identifier": "8.5",
+    "label": {
+      "nb": "Ressurser og infrastruktur (helse-, omsorgs- og sosialtjenesteforskning)"
+    }
+  }
+]

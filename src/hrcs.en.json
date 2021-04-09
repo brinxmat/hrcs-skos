@@ -1,0 +1,338 @@
+[
+  {
+    "identifier": "1",
+    "label": {
+      "en": "Underpinning Research"
+    }
+  },
+  {
+    "identifier": "1.1",
+    "label": {
+      "en": "Normal biological development and functioning"
+    }
+  },
+  {
+    "identifier": "1.2",
+    "label": {
+      "en": "Psychological and socioeconomic processes"
+    }
+  },
+  {
+    "identifier": "1.3",
+    "label": {
+      "en": "Chemical and physical sciences"
+    }
+  },
+  {
+    "identifier": "1.4",
+    "label": {
+      "en": "Methodologies and measurements"
+    }
+  },
+  {
+    "identifier": "1.5",
+    "label": {
+      "en": "Resources and infrastructure (underpinning) "
+    }
+  },
+  {
+    "identifier": "2",
+    "label": {
+      "en": "Aetiology"
+    }
+  },
+  {
+    "identifier": "2.1",
+    "label": {
+      "en": "Biological and endogenous factors"
+    }
+  },
+  {
+    "identifier": "2.2",
+    "label": {
+      "en": "Factors relating to physical environment"
+    }
+  },
+  {
+    "identifier": "2.3",
+    "label": {
+      "en": "Psychological, social and economic factors"
+    }
+  },
+  {
+    "identifier": "2.4",
+    "label": {
+      "en": "Surveillance and distribution"
+    }
+  },
+  {
+    "identifier": "2.5",
+    "label": {
+      "en": "Research design and methodologies (aetiology) "
+    }
+  },
+  {
+    "identifier": "2.6",
+    "label": {
+      "en": "Resources and infrastructure (aetiology) "
+    }
+  },
+  {
+    "identifier": "3",
+    "label": {
+      "en": "Prevention of Disease and Conditions, and Promotion of Well-Being"
+    }
+  },
+  {
+    "identifier": "3.1",
+    "label": {
+      "en": "Primary prevention interventions to modify behaviours or promote well-being"
+    }
+  },
+  {
+    "identifier": "3.2",
+    "label": {
+      "en": "Interventions to alter physical and biological environmental risks"
+    }
+  },
+  {
+    "identifier": "3.3",
+    "label": {
+      "en": "Nutrition and chemoprevention"
+    }
+  },
+  {
+    "identifier": "3.4",
+    "label": {
+      "en": "Vaccines"
+    }
+  },
+  {
+    "identifier": "3.5",
+    "label": {
+      "en": "Resources and infrastructure (prevention) "
+    }
+  },
+  {
+    "identifier": "4",
+    "label": {
+      "en": "Detection, Screening and Diagnosis"
+    }
+  },
+  {
+    "identifier": "4.1",
+    "label": {
+      "en": "Discovery and preclinical testing of markers and technologies"
+    }
+  },
+  {
+    "identifier": "4.2",
+    "label": {
+      "en": "Evaluation of markers and technologies"
+    }
+  },
+  {
+    "identifier": "4.3",
+    "label": {
+      "en": "Influences and impact"
+    }
+  },
+  {
+    "identifier": "4.4",
+    "label": {
+      "en": "Population screening"
+    }
+  },
+  {
+    "identifier": "4.5",
+    "label": {
+      "en": "Resources and infrastructure (detection) "
+    }
+  },
+  {
+    "identifier": "5",
+    "label": {
+      "en": "Development of Treatments and Therapeutic Interventions"
+    }
+  },
+  {
+    "identifier": "5.1",
+    "label": {
+      "en": "Pharmaceuticals"
+    }
+  },
+  {
+    "identifier": "5.2",
+    "label": {
+      "en": "Cellular and gene therapies"
+    }
+  },
+  {
+    "identifier": "5.3",
+    "label": {
+      "en": "Medical devices"
+    }
+  },
+  {
+    "identifier": "5.4",
+    "label": {
+      "en": "Surgery"
+    }
+  },
+  {
+    "identifier": "5.5",
+    "label": {
+      "en": "Radiotherapy"
+    }
+  },
+  {
+    "identifier": "5.6",
+    "label": {
+      "en": "Psychological and behavioural"
+    }
+  },
+  {
+    "identifier": "5.7",
+    "label": {
+      "en": "Physical"
+    }
+  },
+  {
+    "identifier": "5.8",
+    "label": {
+      "en": "Complementary"
+    }
+  },
+  {
+    "identifier": "5.9",
+    "label": {
+      "en": "Resources and infrastructure (development of treatments) "
+    }
+  },
+  {
+    "identifier": "6",
+    "label": {
+      "en": "Evaluation of Treatments and Therapeutic Interventions"
+    }
+  },
+  {
+    "identifier": "6.1",
+    "label": {
+      "en": "Pharmaceuticals"
+    }
+  },
+  {
+    "identifier": "6.2",
+    "label": {
+      "en": "Cellular and gene therapies"
+    }
+  },
+  {
+    "identifier": "6.3",
+    "label": {
+      "en": "Medical devices"
+    }
+  },
+  {
+    "identifier": "6.4",
+    "label": {
+      "en": "Surgery"
+    }
+  },
+  {
+    "identifier": "6.5",
+    "label": {
+      "en": "Radiotherapy"
+    }
+  },
+  {
+    "identifier": "6.6",
+    "label": {
+      "en": "Psychological and behavioural"
+    }
+  },
+  {
+    "identifier": "6.7",
+    "label": {
+      "en": "Physical"
+    }
+  },
+  {
+    "identifier": "6.8",
+    "label": {
+      "en": "Complementary"
+    }
+  },
+  {
+    "identifier": "6.9",
+    "label": {
+      "en": "Resources and infrastructure (evaluation of treatments) "
+    }
+  },
+  {
+    "identifier": "7",
+    "label": {
+      "en": "Management of Diseases and Conditions"
+    }
+  },
+  {
+    "identifier": "7.1",
+    "label": {
+      "en": "Individual care needs"
+    }
+  },
+  {
+    "identifier": "7.2",
+    "label": {
+      "en": "End of life care"
+    }
+  },
+  {
+    "identifier": "7.3",
+    "label": {
+      "en": "Management and decision making"
+    }
+  },
+  {
+    "identifier": "7.4",
+    "label": {
+      "en": "Resources and infrastructure (disease management) "
+    }
+  },
+  {
+    "identifier": "8",
+    "label": {
+      "en": "Health and Social Care Services Research"
+    }
+  },
+  {
+    "identifier": "8.1",
+    "label": {
+      "en": "Organisation and delivery of services"
+    }
+  },
+  {
+    "identifier": "8.2",
+    "label": {
+      "en": "Health and welfare economics"
+    }
+  },
+  {
+    "identifier": "8.3",
+    "label": {
+      "en": "Policy, ethics and research governance"
+    }
+  },
+  {
+    "identifier": "8.4",
+    "label": {
+      "en": "Research design and methodologies"
+    }
+  },
+  {
+    "identifier": "8.5",
+    "label": {
+      "en": "Resources and infrastructure (health services)"
+    }
+  }
+]
