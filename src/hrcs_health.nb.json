@@ -1,0 +1,128 @@
+[
+  {
+    "identifier": "000",
+    "label": {
+      "nb": "Blod"
+    }
+  },
+  {
+    "identifier": "001",
+    "label": {
+      "nb": "Mental helse"
+    }
+  },
+  {
+    "identifier": "002",
+    "label": {
+      "nb": "Stoffskifte og hormoner"
+    }
+  },
+  {
+    "identifier": "003",
+    "label": {
+      "nb": "Muskulatur og skjelett"
+    }
+  },
+  {
+    "identifier": "004",
+    "label": {
+      "nb": "Nevrologisk"
+    }
+  },
+  {
+    "identifier": "005",
+    "label": {
+      "nb": "Munnhule, mage-tarm"
+    }
+  },
+  {
+    "identifier": "006",
+    "label": {
+      "nb": "Nyrer, urinveier og kjønnsorgan"
+    }
+  },
+  {
+    "identifier": "007",
+    "label": {
+      "nb": "Forplantning og fødsel"
+    }
+  },
+  {
+    "identifier": "008",
+    "label": {
+      "nb": "Lunger og luftveier"
+    }
+  },
+  {
+    "identifier": "009",
+    "label": {
+      "nb": "Hud"
+    }
+  },
+  {
+    "identifier": "010",
+    "label": {
+      "nb": "Hjerneslag"
+    }
+  },
+  {
+    "identifier": "011",
+    "label": {
+      "nb": "Kreft"
+    }
+  },
+  {
+    "identifier": "012",
+    "label": {
+      "nb": "Generell helserelevans"
+    }
+  },
+  {
+    "identifier": "013",
+    "label": {
+      "nb": "Andre"
+    }
+  },
+  {
+    "identifier": "014",
+    "label": {
+      "nb": "Hjerte og kar"
+    }
+  },
+  {
+    "identifier": "015",
+    "label": {
+      "nb": "Medfødte lidelser"
+    }
+  },
+  {
+    "identifier": "016",
+    "label": {
+      "nb": "Øre"
+    }
+  },
+  {
+    "identifier": "017",
+    "label": {
+      "nb": "Øye"
+    }
+  },
+  {
+    "identifier": "018",
+    "label": {
+      "nb": "Infeksjon"
+    }
+  },
+  {
+    "identifier": "019",
+    "label": {
+      "nb": "Betennelse og immunsystem"
+    }
+  },
+  {
+    "identifier": "020",
+    "label": {
+      "nb": "Skader og ulykker"
+    }
+  }
+]

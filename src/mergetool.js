@@ -1,27 +1,50 @@
 'use strict'
 const fs = require('fs')
 
-const base_uri = 'https://nva.unit.no/hrcs/'
 const en_input = JSON.parse(fs.readFileSync('hrcs.en.json'));
 const nb_input = JSON.parse(fs.readFileSync('hrcs.nb.json'));
-const output = [];
-console.log(en_input);
-en_input.forEach(item => merge(item));
+convertCategories();
+const en_health_input = JSON.parse(fs.readFileSync('hrcs_health.en.json'));
+const nb_health_input = JSON.parse(fs.readFileSync('hrcs_health.nb.json'));
+convertHealth();
 
-function merge(item) {
-     const identifier = item.identifier;
-     const en_label = item.label.en;
-     const nb_counterpart = nb_input.find(input => input.identifier === identifier);
-
-     if (identifier.length === 1) {
-         output.push(createTopLevel(identifier, en_label, nb_counterpart.label.nb));
-     } else {
-         const x = output.find(input => input.identifier === identifier.substring(0, 1));
-         x.subcategories.push(createElement(identifier, en_label,  nb_counterpart.label.nb));
-     }
+function convertCategories() {
+    const output = [];
+    en_input.forEach(item => merge(item, output));
 }
 
-function createTopLevel(identifier, en_label, nb_label) {
+function convertHealth() {
+    const output = [];
+    en_health_input.forEach(item => mergeHealth(item, output));
+}
+
+function merge(item, output) {
+    const base_uri = 'https://nva.unit.no/hrcs/'
+    const identifier = item.identifier;
+    const en_label = item.label.en;
+    const nb_counterpart = nb_input.find(input => input.identifier === identifier);
+
+    if (identifier.length === 1) {
+        output.push(createTopLevel(identifier, en_label, nb_counterpart.label.nb, base_uri));
+    } else {
+        const x = output.find(input => input.identifier === identifier.substring(0, 1));
+        x.subcategories.push(createElement(identifier, en_label,  nb_counterpart.label.nb, base_uri));
+    }
+    const data = JSON.stringify(wrapWithJsonLd(output));
+    fs.writeFileSync('hrcs.json', data);
+}
+
+function mergeHealth(item, output) {
+    const base_uri = 'https://nva.unit.no/hrcs/health/'
+    const identifier = item.identifier;
+    const en_label = item.label.en;
+    const nb_counterpart = nb_health_input.find(input => input.identifier === identifier);
+    output.push(createElement(identifier, en_label,  nb_counterpart.label.nb, base_uri));
+    const data = JSON.stringify(wrapWithJsonLd(output));
+    fs.writeFileSync('hrcs_health.json', data);
+}
+
+function createTopLevel(identifier, en_label, nb_label, base_uri) {
     return {
         'id': base_uri + identifier,
         'type': 'HrcsConcept',
@@ -34,7 +57,7 @@ function createTopLevel(identifier, en_label, nb_label) {
     };
 }
 
-function createElement(identifier, en_label, nb_label) {
+function createElement(identifier, en_label, nb_label, base_uri) {
     return {
         'id': base_uri + identifier,
         'type': 'HrcsConcept',
@@ -64,6 +87,3 @@ function wrapWithJsonLd(content) {
         'categories': content
     };
 }
-
-const data = JSON.stringify(wrapWithJsonLd(output));
-fs.writeFileSync('hrcs.json', data);

@@ -1,0 +1,128 @@
+[
+  {
+    "identifier": "000",
+    "label": {
+      "en": "Blood"
+    }
+  },
+  {
+    "identifier": "001",
+    "label": {
+      "en": "Mental Health"
+    }
+  },
+  {
+    "identifier": "002",
+    "label": {
+      "en": "Metabolic and Endocrine"
+    }
+  },
+  {
+    "identifier": "003",
+    "label": {
+      "en": "Musculoskeletal"
+    }
+  },
+  {
+    "identifier": "004",
+    "label": {
+      "en": "Neurological"
+    }
+  },
+  {
+    "identifier": "005",
+    "label": {
+      "en": "Oral and Gastrointestinal"
+    }
+  },
+  {
+    "identifier": "006",
+    "label": {
+      "en": "Renal and Urogenital"
+    }
+  },
+  {
+    "identifier": "007",
+    "label": {
+      "en": "Reproductive Health and Childbirth"
+    }
+  },
+  {
+    "identifier": "008",
+    "label": {
+      "en": "Respiratory"
+    }
+  },
+  {
+    "identifier": "009",
+    "label": {
+      "en": "Skin"
+    }
+  },
+  {
+    "identifier": "010",
+    "label": {
+      "en": "Stroke"
+    }
+  },
+  {
+    "identifier": "011",
+    "label": {
+      "en": "Cancer"
+    }
+  },
+  {
+    "identifier": "012",
+    "label": {
+      "en": "Generic Health Relevance"
+    }
+  },
+  {
+    "identifier": "013",
+    "label": {
+      "en": "Other"
+    }
+  },
+  {
+    "identifier": "014",
+    "label": {
+      "en": "Cardiovascular"
+    }
+  },
+  {
+    "identifier": "015",
+    "label": {
+      "en": "Congenital Disorders"
+    }
+  },
+  {
+    "identifier": "016",
+    "label": {
+      "en": "Ear"
+    }
+  },
+  {
+    "identifier": "017",
+    "label": {
+      "en": "Eye"
+    }
+  },
+  {
+    "identifier": "018",
+    "label": {
+      "en": "Infection"
+    }
+  },
+  {
+    "identifier": "019",
+    "label": {
+      "en": "Inflammatory and Immune System"
+    }
+  },
+  {
+    "identifier": "020",
+    "label": {
+      "en": "Injuries and Accidents"
+    }
+  }
+]
