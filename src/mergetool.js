@@ -1,8 +1,8 @@
 'use strict'
 const fs = require('fs')
 
-const en_input = JSON.parse(fs.readFileSync('hrcs.en.json'));
-const nb_input = JSON.parse(fs.readFileSync('hrcs.nb.json'));
+const en_input = JSON.parse(fs.readFileSync('hrcs_activity.en.json'));
+const nb_input = JSON.parse(fs.readFileSync('hrcs_activity.nb.json'));
 convertCategories();
 const en_health_input = JSON.parse(fs.readFileSync('hrcs_health.en.json'));
 const nb_health_input = JSON.parse(fs.readFileSync('hrcs_health.nb.json'));
@@ -31,7 +31,7 @@ function merge(item, output) {
         x.subcategories.push(createElement(identifier, en_label,  nb_counterpart.label.nb, base_uri));
     }
     const data = JSON.stringify(wrapWithJsonLd(output));
-    fs.writeFileSync('hrcs.json', data);
+    fs.writeFileSync('hrcs_activity.json', data);
 }
 
 function mergeHealth(item, output) {
