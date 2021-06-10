@@ -19,7 +19,7 @@ function convertHealth() {
 }
 
 function merge(item, output) {
-    const base_uri = 'https://nva.unit.no/hrcs/'
+    const base_uri = 'https://nva.unit.no/hrcs/activity/'
     const identifier = item.identifier;
     const en_label = item.label.en;
     const nb_counterpart = nb_input.find(input => input.identifier === identifier);
