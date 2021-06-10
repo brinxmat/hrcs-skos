@@ -1,28 +1,28 @@
 'use strict'
 const fs = require('fs')
 
-const en_input = JSON.parse(fs.readFileSync('hrcs_activity.en.json'));
-const nb_input = JSON.parse(fs.readFileSync('hrcs_activity.nb.json'));
-convertCategories();
-const en_health_input = JSON.parse(fs.readFileSync('hrcs_health.en.json'));
-const nb_health_input = JSON.parse(fs.readFileSync('hrcs_health.nb.json'));
-convertHealth();
+const activity_en_input = JSON.parse(fs.readFileSync('hrcs_activity.en.json'));
+const activity_nb_input = JSON.parse(fs.readFileSync('hrcs_activity.nb.json'));
+convertActivities();
+const category_en_input = JSON.parse(fs.readFileSync('hrcs_category.en.json'));
+const category_nb_input = JSON.parse(fs.readFileSync('hrcs_category.nb.json'));
+convertCategory();
 
-function convertCategories() {
+function convertActivities() {
     const output = [];
-    en_input.forEach(item => merge(item, output));
+    activity_en_input.forEach(item => mergeActivity(item, output));
 }
 
-function convertHealth() {
+function convertCategory() {
     const output = [];
-    en_health_input.forEach(item => mergeHealth(item, output));
+    category_en_input.forEach(item => mergeCategory(item, output));
 }
 
-function merge(item, output) {
+function mergeActivity(item, output) {
     const base_uri = 'https://nva.unit.no/hrcs/activity/'
     const identifier = item.identifier;
     const en_label = item.label.en;
-    const nb_counterpart = nb_input.find(input => input.identifier === identifier);
+    const nb_counterpart = activity_nb_input.find(input => input.identifier === identifier);
 
     if (identifier.length === 1) {
         output.push(createTopLevel(identifier, en_label, nb_counterpart.label.nb, base_uri));
@@ -34,14 +34,14 @@ function merge(item, output) {
     fs.writeFileSync('hrcs_activity.json', data);
 }
 
-function mergeHealth(item, output) {
-    const base_uri = 'https://nva.unit.no/hrcs/health/'
+function mergeCategory(item, output) {
+    const base_uri = 'https://nva.unit.no/hrcs/category/'
     const identifier = item.identifier;
     const en_label = item.label.en;
-    const nb_counterpart = nb_health_input.find(input => input.identifier === identifier);
+    const nb_counterpart = category_nb_input.find(input => input.identifier === identifier);
     output.push(createElement(identifier, en_label,  nb_counterpart.label.nb, base_uri));
     const data = JSON.stringify(wrapWithJsonLd(output));
-    fs.writeFileSync('hrcs_health.json', data);
+    fs.writeFileSync('hrcs_category.json', data);
 }
 
 function createTopLevel(identifier, en_label, nb_label, base_uri) {
