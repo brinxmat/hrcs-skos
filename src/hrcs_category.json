@@ -18,6 +18,9 @@
     },
     "identifier": {
       "@id": "http://purl.org/dc/terms/identifier"
+    },
+    "cristinIdentifier": {
+      "@id": "http://purl.org/dc/terms/identifier"
     }
   },
   "categories": [
