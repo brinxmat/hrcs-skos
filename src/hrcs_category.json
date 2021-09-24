@@ -5,12 +5,11 @@
     "type": "@type",
     "categories": "@graph",
     "HrcsConcept": "Concept",
-    "subcategories": "narrower",
     "label": {
       "@id": "http://www.w3.org/2000/01/rdf-schema#label",
       "@container": "@language"
     },
-    "categoryName": {
+    "name": {
       "@id": "prefLabel"
     },
     "shortName": {
@@ -33,7 +32,7 @@
         "en": "Blood",
         "nb": "Blod"
       },
-      "categoryName": "Blood",
+      "name": "Blood",
       "shortName": "Blood",
       "related": "https://purl.bioontology.org/ontology/ICD10/D50-D89.9"
     },
@@ -46,7 +45,7 @@
         "en": "Mental Health",
         "nb": "Mental helse"
       },
-      "categoryName": "Mental health",
+      "name": "Mental health",
       "shortName": "Mental",
       "related": "https://purl.bioontology.org/ontology/ICD10/F00-F99.9"
     },
@@ -59,7 +58,7 @@
         "en": "Metabolic and Endocrine",
         "nb": "Stoffskifte og hormoner"
       },
-      "categoryName": "Metabolic and endocrine",
+      "name": "Metabolic and endocrine",
       "shortName": "Metabolic",
       "related": "https://purl.bioontology.org/ontology/ICD10/E00-E90.9"
     },
@@ -72,7 +71,7 @@
         "en": "Musculoskeletal",
         "nb": "Muskulatur og skjelett"
       },
-      "categoryName": "Musculoskeletal",
+      "name": "Musculoskeletal",
       "shortName": "Muscle",
       "related": "https://purl.bioontology.org/ontology/ICD10/M00-M99.9"
     },
@@ -85,7 +84,7 @@
         "en": "Neurological",
         "nb": "Nevrologisk"
       },
-      "categoryName": "Neurological",
+      "name": "Neurological",
       "shortName": "Neuro",
       "related": "https://purl.bioontology.org/ontology/ICD10/G00-G99.9"
     },
@@ -98,7 +97,7 @@
         "en": "Oral and Gastrointestinal",
         "nb": "Munnhule, mage-tarm"
       },
-      "categoryName": "Oral and gastrointestinal",
+      "name": "Oral and gastrointestinal",
       "shortName": "Oral",
       "related": "https://purl.bioontology.org/ontology/ICD10/K00-K93.9"
     },
@@ -111,7 +110,7 @@
         "en": "Renal and Urogenital",
         "nb": "Nyrer, urinveier og kjønnsorgan"
       },
-      "categoryName": "Renal and urogenital",
+      "name": "Renal and urogenital",
       "shortName": "Renal",
       "related": "https://purl.bioontology.org/ontology/ICD10/N00-N99.9"
     },
@@ -124,7 +123,7 @@
         "en": "Reproductive Health and Childbirth",
         "nb": "Forplantning og fødsel"
       },
-      "categoryName": "Reproductive health and childbirth",
+      "name": "Reproductive health and childbirth",
       "shortName": "Reproduction",
       "related": [
         "https://purl.bioontology.org/ontology/ICD10/O00-O99.9",
@@ -140,7 +139,7 @@
         "en": "Respiratory",
         "nb": "Lunger og luftveier"
       },
-      "categoryName": "Respiratory",
+      "name": "Respiratory",
       "shortName": "Respiratory",
       "related": "https://purl.bioontology.org/ontology/ICD10/J00-J99.9"
     },
@@ -153,7 +152,7 @@
         "en": "Skin",
         "nb": "Hud"
       },
-      "categoryName": "Skin",
+      "name": "Skin",
       "shortName": "Skin",
       "related": "https://purl.bioontology.org/ontology/ICD10/L00-L99.9"
     },
@@ -166,7 +165,7 @@
         "en": "Stroke",
         "nb": "Hjerneslag"
       },
-      "categoryName": "Stroke",
+      "name": "Stroke",
       "shortName": "Stroke",
       "related": "https://purl.bioontology.org/ontology/ICD10/I00-I99.9"
     },
@@ -179,7 +178,7 @@
         "en": "Cancer and neoplasms",
         "nb": "Kreft"
       },
-      "categoryName": "Cancer",
+      "name": "Cancer",
       "shortName": "Cancer"
     },
     {
@@ -191,7 +190,7 @@
         "en": "Generic Health Relevance",
         "nb": "Generell helserelevans"
       },
-      "categoryName": "Generic health relevance",
+      "name": "Generic health relevance",
       "shortName": "Generic"
     },
     {
@@ -203,7 +202,7 @@
         "en": "Other",
         "nb": "Andre"
       },
-      "categoryName": "Disputed aetiology and other",
+      "name": "Disputed aetiology and other",
       "shortName": "Other"
     },
     {
@@ -215,7 +214,7 @@
         "en": "Cardiovascular",
         "nb": "Hjerte og kar"
       },
-      "categoryName": "Caridovascular",
+      "name": "Caridovascular",
       "shortName": "Cardio",
       "related": "https://purl.bioontology.org/ontology/ICD10/I00-I99.9"
     },
@@ -228,7 +227,7 @@
         "en": "Congenital Disorders",
         "nb": "Medfødte lidelser"
       },
-      "categoryName": "Congenital",
+      "name": "Congenital",
       "shortName": "Congenital",
       "related": "https://purl.bioontology.org/ontology/ICD10/Q00-Q99.9"
     },
@@ -241,7 +240,7 @@
         "en": "Ear",
         "nb": "Øre"
       },
-      "categoryName": "Ear",
+      "name": "Ear",
       "shortName": "Ear",
       "related": "https://purl.bioontology.org/ontology/ICD10/H60-H95.9"
     },
@@ -254,7 +253,7 @@
         "en": "Eye",
         "nb": "Øye"
       },
-      "categoryName": "Eye",
+      "name": "Eye",
       "shortName": "Eye",
       "related": "https://purl.bioontology.org/ontology/ICD10/H00-H59.9"
     },
@@ -267,7 +266,7 @@
         "en": "Infection",
         "nb": "Infeksjon"
       },
-      "categoryName": "Infection",
+      "name": "Infection",
       "shortName": "Infection",
       "related": "https://purl.bioontology.org/ontology/ICD10/A00-B99.9"
     },
@@ -280,7 +279,7 @@
         "en": "Inflammatory and Immune System",
         "nb": "Betennelse og immunsystem"
       },
-      "categoryName": "Inflammatory and immune system",
+      "name": "Inflammatory and immune system",
       "shortName": "Immune",
       "related": "https://purl.bioontology.org/ontology/ICD10/D50-D89.9"
     },
@@ -293,7 +292,7 @@
         "en": "Injuries and Accidents",
         "nb": "Skader og ulykker"
       },
-      "categoryName": "Injuries and accidents",
+      "name": "Injuries and accidents",
       "shortName": "Injuries",
       "related": [
         "https://purl.bioontology.org/ontology/ICD10/S00-T98.9",
