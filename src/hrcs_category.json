@@ -24,7 +24,7 @@
   },
   "categories": [
     {
-      "id": "https://nva.unit.no/hrcs/category/HRCS_HC_01BLO",
+      "id": "https://nva.unit.no/hrcs/category/hrcs_hc_01blo",
       "type": "HrcsConcept",
       "identifier": "HRCS_HC_01BLO",
       "cristinIdentifier": "1",
@@ -37,7 +37,7 @@
       "related": "https://purl.bioontology.org/ontology/ICD10/D50-D89.9"
     },
     {
-      "id": "https://nva.unit.no/hrcs/category/HRCS_HC_10MEN",
+      "id": "https://nva.unit.no/hrcs/category/hrcs_hc_10men",
       "type": "HrcsConcept",
       "identifier": "HRCS_HC_10MEN",
       "cristinIdentifier": "2",
@@ -50,7 +50,7 @@
       "related": "https://purl.bioontology.org/ontology/ICD10/F00-F99.9"
     },
     {
-      "id": "https://nva.unit.no/hrcs/category/HRCS_HC_11MET",
+      "id": "https://nva.unit.no/hrcs/category/hrcs_hc_11met",
       "type": "HrcsConcept",
       "identifier": "HRCS_HC_11MET",
       "cristinIdentifier": "3",
@@ -63,7 +63,7 @@
       "related": "https://purl.bioontology.org/ontology/ICD10/E00-E90.9"
     },
     {
-      "id": "https://nva.unit.no/hrcs/category/HRCS_HC_12MUS",
+      "id": "https://nva.unit.no/hrcs/category/hrcs_hc_12mus",
       "type": "HrcsConcept",
       "identifier": "HRCS_HC_12MUS",
       "cristinIdentifier": "4",
@@ -76,7 +76,7 @@
       "related": "https://purl.bioontology.org/ontology/ICD10/M00-M99.9"
     },
     {
-      "id": "https://nva.unit.no/hrcs/category/HRCS_HC_13NEU",
+      "id": "https://nva.unit.no/hrcs/category/hrcs_hc_13neu",
       "type": "HrcsConcept",
       "identifier": "HRCS_HC_13NEU",
       "cristinIdentifier": "5",
@@ -89,7 +89,7 @@
       "related": "https://purl.bioontology.org/ontology/ICD10/G00-G99.9"
     },
     {
-      "id": "https://nva.unit.no/hrcs/category/HRCS_HC_14ORA",
+      "id": "https://nva.unit.no/hrcs/category/hrcs_hc_14ora",
       "type": "HrcsConcept",
       "identifier": "HRCS_HC_14ORA",
       "cristinIdentifier": "6",
@@ -102,7 +102,7 @@
       "related": "https://purl.bioontology.org/ontology/ICD10/K00-K93.9"
     },
     {
-      "id": "https://nva.unit.no/hrcs/category/HRCS_HC_15REN",
+      "id": "https://nva.unit.no/hrcs/category/hrcs_hc_15ren",
       "type": "HrcsConcept",
       "identifier": "HRCS_HC_15REN",
       "cristinIdentifier": "7",
@@ -115,7 +115,7 @@
       "related": "https://purl.bioontology.org/ontology/ICD10/N00-N99.9"
     },
     {
-      "id": "https://nva.unit.no/hrcs/category/HRCS_HC_16REP",
+      "id": "https://nva.unit.no/hrcs/category/hrcs_hc_16rep",
       "type": "HrcsConcept",
       "identifier": "HRCS_HC_16REP",
       "cristinIdentifier": "8",
@@ -131,7 +131,7 @@
       ]
     },
     {
-      "id": "https://nva.unit.no/hrcs/category/HRCS_HC_17RES",
+      "id": "https://nva.unit.no/hrcs/category/hrcs_hc_17res",
       "type": "HrcsConcept",
       "identifier": "HRCS_HC_17RES",
       "cristinIdentifier": "9",
@@ -144,7 +144,7 @@
       "related": "https://purl.bioontology.org/ontology/ICD10/J00-J99.9"
     },
     {
-      "id": "https://nva.unit.no/hrcs/category/HRCS_HC_18SKI",
+      "id": "https://nva.unit.no/hrcs/category/hrcs_hc_18ski",
       "type": "HrcsConcept",
       "identifier": "HRCS_HC_18SKI",
       "cristinIdentifier": "10",
@@ -157,7 +157,7 @@
       "related": "https://purl.bioontology.org/ontology/ICD10/L00-L99.9"
     },
     {
-      "id": "https://nva.unit.no/hrcs/category/HRCS_HC_19STR",
+      "id": "https://nva.unit.no/hrcs/category/hrcs_hc_19str",
       "type": "HrcsConcept",
       "identifier": "HRCS_HC_19STR",
       "cristinIdentifier": "11",
@@ -170,7 +170,7 @@
       "related": "https://purl.bioontology.org/ontology/ICD10/I00-I99.9"
     },
     {
-      "id": "https://nva.unit.no/hrcs/category/HRCS_HC_02CAN",
+      "id": "https://nva.unit.no/hrcs/category/hrcs_hc_02can",
       "type": "HrcsConcept",
       "identifier": "HRCS_HC_02CAN",
       "cristinIdentifier": "12",
@@ -182,7 +182,7 @@
       "shortName": "Cancer"
     },
     {
-      "id": "https://nva.unit.no/hrcs/category/HRCS_HC_20GEN",
+      "id": "https://nva.unit.no/hrcs/category/hrcs_hc_20gen",
       "type": "HrcsConcept",
       "identifier": "HRCS_HC_20GEN",
       "cristinIdentifier": "13",
@@ -194,7 +194,7 @@
       "shortName": "Generic"
     },
     {
-      "id": "https://nva.unit.no/hrcs/category/HRCS_HC_21OTH",
+      "id": "https://nva.unit.no/hrcs/category/hrcs_hc_21oth",
       "type": "HrcsConcept",
       "identifier": "HRCS_HC_21OTH",
       "cristinIdentifier": "14",
@@ -206,7 +206,7 @@
       "shortName": "Other"
     },
     {
-      "id": "https://nva.unit.no/hrcs/category/HRCS_HC_03CAR",
+      "id": "https://nva.unit.no/hrcs/category/hrcs_hc_03car",
       "type": "HrcsConcept",
       "identifier": "HRCS_HC_03CAR",
       "cristinIdentifier": "15",
@@ -219,7 +219,7 @@
       "related": "https://purl.bioontology.org/ontology/ICD10/I00-I99.9"
     },
     {
-      "id": "https://nva.unit.no/hrcs/category/HRCS_HC_04CON",
+      "id": "https://nva.unit.no/hrcs/category/hrcs_hc_04con",
       "type": "HrcsConcept",
       "identifier": "HRCS_HC_04CON",
       "cristinIdentifier": "16",
@@ -232,7 +232,7 @@
       "related": "https://purl.bioontology.org/ontology/ICD10/Q00-Q99.9"
     },
     {
-      "id": "https://nva.unit.no/hrcs/category/HRCS_HC_05EAR",
+      "id": "https://nva.unit.no/hrcs/category/hrcs_hc_05ear",
       "type": "HrcsConcept",
       "identifier": "HRCS_HC_05EAR",
       "cristinIdentifier": "17",
@@ -245,7 +245,7 @@
       "related": "https://purl.bioontology.org/ontology/ICD10/H60-H95.9"
     },
     {
-      "id": "https://nva.unit.no/hrcs/category/HRCS_HC_06EYE",
+      "id": "https://nva.unit.no/hrcs/category/hrcs_hc_06eye",
       "type": "HrcsConcept",
       "identifier": "HRCS_HC_06EYE",
       "cristinIdentifier": "18",
@@ -258,7 +258,7 @@
       "related": "https://purl.bioontology.org/ontology/ICD10/H00-H59.9"
     },
     {
-      "id": "https://nva.unit.no/hrcs/category/HRCS_HC_07INF",
+      "id": "https://nva.unit.no/hrcs/category/hrcs_hc_07inf",
       "type": "HrcsConcept",
       "identifier": "HRCS_HC_07INF",
       "cristinIdentifier": "19",
@@ -271,7 +271,7 @@
       "related": "https://purl.bioontology.org/ontology/ICD10/A00-B99.9"
     },
     {
-      "id": "https://nva.unit.no/hrcs/category/HRCS_HC_08IMM",
+      "id": "https://nva.unit.no/hrcs/category/hrcs_hc_08imm",
       "type": "HrcsConcept",
       "identifier": "HRCS_HC_08IMM",
       "cristinIdentifier": "20",
@@ -284,7 +284,7 @@
       "related": "https://purl.bioontology.org/ontology/ICD10/D50-D89.9"
     },
     {
-      "id": "https://nva.unit.no/hrcs/category/HRCS_HC_09INJ",
+      "id": "https://nva.unit.no/hrcs/category/hrcs_hc_09inj",
       "type": "HrcsConcept",
       "identifier": "HRCS_HC_09INJ",
       "cristinIdentifier": "21",
