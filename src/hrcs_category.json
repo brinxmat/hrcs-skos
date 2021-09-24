@@ -1,1 +1,301 @@
-{"@context":{"@vocab":"http://www.w3.org/2004/02/skos/core#","id":"@id","type":"@type","categories":"@graph","HrcsConcept":"Concept","subcategories":"narrower","label":{"@id":"prefLabel","@container":"@language"},"identifier":"http://purl.org/dc/terms/identifier"},"categories":[{"id":"https://nva.unit.no/hrcs/category/000","type":"HrcsConcept","identifier":"000","label":{"en":"Blood","nb":"Blod"}},{"id":"https://nva.unit.no/hrcs/category/001","type":"HrcsConcept","identifier":"001","label":{"en":"Mental Health","nb":"Mental helse"}},{"id":"https://nva.unit.no/hrcs/category/002","type":"HrcsConcept","identifier":"002","label":{"en":"Metabolic and Endocrine","nb":"Stoffskifte og hormoner"}},{"id":"https://nva.unit.no/hrcs/category/003","type":"HrcsConcept","identifier":"003","label":{"en":"Musculoskeletal","nb":"Muskulatur og skjelett"}},{"id":"https://nva.unit.no/hrcs/category/004","type":"HrcsConcept","identifier":"004","label":{"en":"Neurological","nb":"Nevrologisk"}},{"id":"https://nva.unit.no/hrcs/category/005","type":"HrcsConcept","identifier":"005","label":{"en":"Oral and Gastrointestinal","nb":"Munnhule, mage-tarm"}},{"id":"https://nva.unit.no/hrcs/category/006","type":"HrcsConcept","identifier":"006","label":{"en":"Renal and Urogenital","nb":"Nyrer, urinveier og kjønnsorgan"}},{"id":"https://nva.unit.no/hrcs/category/007","type":"HrcsConcept","identifier":"007","label":{"en":"Reproductive Health and Childbirth","nb":"Forplantning og fødsel"}},{"id":"https://nva.unit.no/hrcs/category/008","type":"HrcsConcept","identifier":"008","label":{"en":"Respiratory","nb":"Lunger og luftveier"}},{"id":"https://nva.unit.no/hrcs/category/009","type":"HrcsConcept","identifier":"009","label":{"en":"Skin","nb":"Hud"}},{"id":"https://nva.unit.no/hrcs/category/010","type":"HrcsConcept","identifier":"010","label":{"en":"Stroke","nb":"Hjerneslag"}},{"id":"https://nva.unit.no/hrcs/category/011","type":"HrcsConcept","identifier":"011","label":{"en":"Cancer","nb":"Kreft"}},{"id":"https://nva.unit.no/hrcs/category/012","type":"HrcsConcept","identifier":"012","label":{"en":"Generic Health Relevance","nb":"Generell helserelevans"}},{"id":"https://nva.unit.no/hrcs/category/013","type":"HrcsConcept","identifier":"013","label":{"en":"Other","nb":"Andre"}},{"id":"https://nva.unit.no/hrcs/category/014","type":"HrcsConcept","identifier":"014","label":{"en":"Cardiovascular","nb":"Hjerte og kar"}},{"id":"https://nva.unit.no/hrcs/category/015","type":"HrcsConcept","identifier":"015","label":{"en":"Congenital Disorders","nb":"Medfødte lidelser"}},{"id":"https://nva.unit.no/hrcs/category/016","type":"HrcsConcept","identifier":"016","label":{"en":"Ear","nb":"Øre"}},{"id":"https://nva.unit.no/hrcs/category/017","type":"HrcsConcept","identifier":"017","label":{"en":"Eye","nb":"Øye"}},{"id":"https://nva.unit.no/hrcs/category/018","type":"HrcsConcept","identifier":"018","label":{"en":"Infection","nb":"Infeksjon"}},{"id":"https://nva.unit.no/hrcs/category/019","type":"HrcsConcept","identifier":"019","label":{"en":"Inflammatory and Immune System","nb":"Betennelse og immunsystem"}},{"id":"https://nva.unit.no/hrcs/category/020","type":"HrcsConcept","identifier":"020","label":{"en":"Injuries and Accidents","nb":"Skader og ulykker"}}]}
+{
+  "@context": {
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "id": "@id",
+    "type": "@type",
+    "categories": "@graph",
+    "HrcsConcept": "Concept",
+    "subcategories": "narrower",
+    "label": {
+      "@id": "http://www.w3.org/2000/01/rdf-schema#label",
+      "@container": "@language"
+    },
+    "categoryName": {
+      "@id": "prefLabel"
+    },
+    "shortName": {
+      "@id": "altLabel"
+    },
+    "identifier": {
+      "@id": "http://purl.org/dc/terms/identifier"
+    }
+  },
+  "categories": [
+    {
+      "id": "https://nva.unit.no/hrcs/category/HRCS_HC_01BLO",
+      "type": "HrcsConcept",
+      "identifier": "HRCS_HC_01BLO",
+      "cristinIdentifier": "1",
+      "label": {
+        "en": "Blood",
+        "nb": "Blod"
+      },
+      "categoryName": "Blood",
+      "shortName": "Blood",
+      "related": "https://purl.bioontology.org/ontology/ICD10/D50-D89.9"
+    },
+    {
+      "id": "https://nva.unit.no/hrcs/category/HRCS_HC_10MEN",
+      "type": "HrcsConcept",
+      "identifier": "HRCS_HC_10MEN",
+      "cristinIdentifier": "2",
+      "label": {
+        "en": "Mental Health",
+        "nb": "Mental helse"
+      },
+      "categoryName": "Mental health",
+      "shortName": "Mental",
+      "related": "https://purl.bioontology.org/ontology/ICD10/F00-F99.9"
+    },
+    {
+      "id": "https://nva.unit.no/hrcs/category/HRCS_HC_11MET",
+      "type": "HrcsConcept",
+      "identifier": "HRCS_HC_11MET",
+      "cristinIdentifier": "3",
+      "label": {
+        "en": "Metabolic and Endocrine",
+        "nb": "Stoffskifte og hormoner"
+      },
+      "categoryName": "Metabolic and endocrine",
+      "shortName": "Metabolic",
+      "related": "https://purl.bioontology.org/ontology/ICD10/E00-E90.9"
+    },
+    {
+      "id": "https://nva.unit.no/hrcs/category/HRCS_HC_12MUS",
+      "type": "HrcsConcept",
+      "identifier": "HRCS_HC_12MUS",
+      "cristinIdentifier": "4",
+      "label": {
+        "en": "Musculoskeletal",
+        "nb": "Muskulatur og skjelett"
+      },
+      "categoryName": "Musculoskeletal",
+      "shortName": "Muscle",
+      "related": "https://purl.bioontology.org/ontology/ICD10/M00-M99.9"
+    },
+    {
+      "id": "https://nva.unit.no/hrcs/category/HRCS_HC_13NEU",
+      "type": "HrcsConcept",
+      "identifier": "HRCS_HC_13NEU",
+      "cristinIdentifier": "5",
+      "label": {
+        "en": "Neurological",
+        "nb": "Nevrologisk"
+      },
+      "categoryName": "Neurological",
+      "shortName": "Neuro",
+      "related": "https://purl.bioontology.org/ontology/ICD10/G00-G99.9"
+    },
+    {
+      "id": "https://nva.unit.no/hrcs/category/HRCS_HC_14ORA",
+      "type": "HrcsConcept",
+      "identifier": "HRCS_HC_14ORA",
+      "cristinIdentifier": "6",
+      "label": {
+        "en": "Oral and Gastrointestinal",
+        "nb": "Munnhule, mage-tarm"
+      },
+      "categoryName": "Oral and gastrointestinal",
+      "shortName": "Oral",
+      "related": "https://purl.bioontology.org/ontology/ICD10/K00-K93.9"
+    },
+    {
+      "id": "https://nva.unit.no/hrcs/category/HRCS_HC_15REN",
+      "type": "HrcsConcept",
+      "identifier": "HRCS_HC_15REN",
+      "cristinIdentifier": "7",
+      "label": {
+        "en": "Renal and Urogenital",
+        "nb": "Nyrer, urinveier og kjønnsorgan"
+      },
+      "categoryName": "Renal and urogenital",
+      "shortName": "Renal",
+      "related": "https://purl.bioontology.org/ontology/ICD10/N00-N99.9"
+    },
+    {
+      "id": "https://nva.unit.no/hrcs/category/HRCS_HC_16REP",
+      "type": "HrcsConcept",
+      "identifier": "HRCS_HC_16REP",
+      "cristinIdentifier": "8",
+      "label": {
+        "en": "Reproductive Health and Childbirth",
+        "nb": "Forplantning og fødsel"
+      },
+      "categoryName": "Reproductive health and childbirth",
+      "shortName": "Reproduction",
+      "related": [
+        "https://purl.bioontology.org/ontology/ICD10/O00-O99.9",
+        "https://purl.bioontology.org/ontology/ICD10/P00-P96.9"
+      ]
+    },
+    {
+      "id": "https://nva.unit.no/hrcs/category/HRCS_HC_17RES",
+      "type": "HrcsConcept",
+      "identifier": "HRCS_HC_17RES",
+      "cristinIdentifier": "9",
+      "label": {
+        "en": "Respiratory",
+        "nb": "Lunger og luftveier"
+      },
+      "categoryName": "Respiratory",
+      "shortName": "Respiratory",
+      "related": "https://purl.bioontology.org/ontology/ICD10/J00-J99.9"
+    },
+    {
+      "id": "https://nva.unit.no/hrcs/category/HRCS_HC_18SKI",
+      "type": "HrcsConcept",
+      "identifier": "HRCS_HC_18SKI",
+      "cristinIdentifier": "10",
+      "label": {
+        "en": "Skin",
+        "nb": "Hud"
+      },
+      "categoryName": "Skin",
+      "shortName": "Skin",
+      "related": "https://purl.bioontology.org/ontology/ICD10/L00-L99.9"
+    },
+    {
+      "id": "https://nva.unit.no/hrcs/category/HRCS_HC_19STR",
+      "type": "HrcsConcept",
+      "identifier": "HRCS_HC_19STR",
+      "cristinIdentifier": "11",
+      "label": {
+        "en": "Stroke",
+        "nb": "Hjerneslag"
+      },
+      "categoryName": "Stroke",
+      "shortName": "Stroke",
+      "related": "https://purl.bioontology.org/ontology/ICD10/I00-I99.9"
+    },
+    {
+      "id": "https://nva.unit.no/hrcs/category/HRCS_HC_02CAN",
+      "type": "HrcsConcept",
+      "identifier": "HRCS_HC_02CAN",
+      "cristinIdentifier": "12",
+      "label": {
+        "en": "Cancer and neoplasms",
+        "nb": "Kreft"
+      },
+      "categoryName": "Cancer",
+      "shortName": "Cancer"
+    },
+    {
+      "id": "https://nva.unit.no/hrcs/category/HRCS_HC_20GEN",
+      "type": "HrcsConcept",
+      "identifier": "HRCS_HC_20GEN",
+      "cristinIdentifier": "13",
+      "label": {
+        "en": "Generic Health Relevance",
+        "nb": "Generell helserelevans"
+      },
+      "categoryName": "Generic health relevance",
+      "shortName": "Generic"
+    },
+    {
+      "id": "https://nva.unit.no/hrcs/category/HRCS_HC_21OTH",
+      "type": "HrcsConcept",
+      "identifier": "HRCS_HC_21OTH",
+      "cristinIdentifier": "14",
+      "label": {
+        "en": "Other",
+        "nb": "Andre"
+      },
+      "categoryName": "Disputed aetiology and other",
+      "shortName": "Other"
+    },
+    {
+      "id": "https://nva.unit.no/hrcs/category/HRCS_HC_03CAR",
+      "type": "HrcsConcept",
+      "identifier": "HRCS_HC_03CAR",
+      "cristinIdentifier": "15",
+      "label": {
+        "en": "Cardiovascular",
+        "nb": "Hjerte og kar"
+      },
+      "categoryName": "Caridovascular",
+      "shortName": "Cardio",
+      "related": "https://purl.bioontology.org/ontology/ICD10/I00-I99.9"
+    },
+    {
+      "id": "https://nva.unit.no/hrcs/category/HRCS_HC_04CON",
+      "type": "HrcsConcept",
+      "identifier": "HRCS_HC_04CON",
+      "cristinIdentifier": "16",
+      "label": {
+        "en": "Congenital Disorders",
+        "nb": "Medfødte lidelser"
+      },
+      "categoryName": "Congenital",
+      "shortName": "Congenital",
+      "related": "https://purl.bioontology.org/ontology/ICD10/Q00-Q99.9"
+    },
+    {
+      "id": "https://nva.unit.no/hrcs/category/HRCS_HC_05EAR",
+      "type": "HrcsConcept",
+      "identifier": "HRCS_HC_05EAR",
+      "cristinIdentifier": "17",
+      "label": {
+        "en": "Ear",
+        "nb": "Øre"
+      },
+      "categoryName": "Ear",
+      "shortName": "Ear",
+      "related": "https://purl.bioontology.org/ontology/ICD10/H60-H95.9"
+    },
+    {
+      "id": "https://nva.unit.no/hrcs/category/HRCS_HC_06EYE",
+      "type": "HrcsConcept",
+      "identifier": "HRCS_HC_06EYE",
+      "cristinIdentifier": "18",
+      "label": {
+        "en": "Eye",
+        "nb": "Øye"
+      },
+      "categoryName": "Eye",
+      "shortName": "Eye",
+      "related": "https://purl.bioontology.org/ontology/ICD10/H00-H59.9"
+    },
+    {
+      "id": "https://nva.unit.no/hrcs/category/HRCS_HC_07INF",
+      "type": "HrcsConcept",
+      "identifier": "HRCS_HC_07INF",
+      "cristinIdentifier": "19",
+      "label": {
+        "en": "Infection",
+        "nb": "Infeksjon"
+      },
+      "categoryName": "Infection",
+      "shortName": "Infection",
+      "related": "https://purl.bioontology.org/ontology/ICD10/A00-B99.9"
+    },
+    {
+      "id": "https://nva.unit.no/hrcs/category/HRCS_HC_08IMM",
+      "type": "HrcsConcept",
+      "identifier": "HRCS_HC_08IMM",
+      "cristinIdentifier": "20",
+      "label": {
+        "en": "Inflammatory and Immune System",
+        "nb": "Betennelse og immunsystem"
+      },
+      "categoryName": "Inflammatory and immune system",
+      "shortName": "Immune",
+      "related": "https://purl.bioontology.org/ontology/ICD10/D50-D89.9"
+    },
+    {
+      "id": "https://nva.unit.no/hrcs/category/HRCS_HC_09INJ",
+      "type": "HrcsConcept",
+      "identifier": "HRCS_HC_09INJ",
+      "cristinIdentifier": "21",
+      "label": {
+        "en": "Injuries and Accidents",
+        "nb": "Skader og ulykker"
+      },
+      "categoryName": "Injuries and accidents",
+      "shortName": "Injuries",
+      "related": [
+        "https://purl.bioontology.org/ontology/ICD10/S00-T98.9",
+        "https://purl.bioontology.org/ontology/ICD10/V01-Y98.9"
+      ]
+    }
+  ]
+}
